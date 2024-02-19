@@ -1,0 +1,11 @@
+name: DamagePenalty
+version: '${project.version}'
+main: github.tsffish.damagepenalty.DamagePenalty
+api-version: '1.17'
+commands:
+  dpe:
+    description: Hello Command
+    usage: /dpe
+  dpe reload:
+    description: Reload Command
+    usage: /dpe

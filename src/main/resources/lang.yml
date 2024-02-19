@@ -1,0 +1,13 @@
+# ====================== #
+# DamagePenalty Lang Config #
+# ====================== #
+
+command_help:
+  - "&a ================================"
+  - "&f "
+  - "&f DamagePenalty &bCommands:"
+  - "&f "
+  - "&f /dpe &eDisplay this help information."
+  - "&f /dpe reload &eReload configuration file."
+  - "&f "
+  - "&a ================================"

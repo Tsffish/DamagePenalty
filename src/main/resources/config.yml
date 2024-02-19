@@ -1,0 +1,6 @@
+# ====================== #
+# DamagePenalty Main Config #
+# ====================== #
+
+messreloadnow: "&bDamagePenalty &7>> &eReloading configuration file"
+messreloadsucc: "&bDamagePenalty &7>> &aSuccessfully reloaded configuration file"
