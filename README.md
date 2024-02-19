@@ -4,6 +4,7 @@ Make a player suffer increasing damage.
 
 ## Functions:
 - Set Multipliers to +0.005 upon damage
+- Set Multipliers to -0.001 upon per second
 - Set Multipliers to 5% upon death
 
 ## Installation:
