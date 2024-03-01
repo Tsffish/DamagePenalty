@@ -15,16 +15,10 @@ public class MessSender {
     public static void l(String string){
         console.sendMessage(t(pluginNameConsole() + " " + string));
     }
-
     public static void le(String name,String casue){
         l.warning(t(pluginNameConsole() + " " + name + " " + casue));
     }
-
     public static void le(String name,Exception casue){
         l.warning(t(pluginNameConsole() + " " + name + " " + casue));
-    }
-
-    public static void consoleSendCommand(String command){
-        Bukkit.dispatchCommand(console, command);
     }
 }

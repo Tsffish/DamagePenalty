@@ -1,8 +1,8 @@
 package github.tsffish.damagepenalty.command;
 
 import github.tsffish.damagepenalty.DamagePenalty;
+import github.tsffish.damagepenalty.api.PlayerMultiplierImpl;
 import github.tsffish.damagepenalty.config.main.MainConfigLoad;
-import github.tsffish.damagepenalty.util.DamageMultipliers;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -16,6 +16,7 @@ import static github.tsffish.damagepenalty.config.lang.LangConfigHandler.command
 import static github.tsffish.damagepenalty.util.misc.ColorString.t;
 
 public class CommandInfo implements CommandExecutor {
+    private final PlayerMultiplierImpl playerMultipliers = new PlayerMultiplierImpl();
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
         if (sender instanceof Player) {
@@ -76,7 +77,7 @@ public class CommandInfo implements CommandExecutor {
         if (sender instanceof Player){
             Player player = (Player) sender;
             UUID uuid = player.getUniqueId();
-            player.sendMessage("You Current damageMultipliers: " + DamageMultipliers.damageMultipliers.get(uuid));
+            player.sendMessage("You Current damageMultipliers: " + playerMultipliers.getDamageMultiplier(uuid));
 
         }
     }

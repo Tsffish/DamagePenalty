@@ -4,3 +4,17 @@
 
 messreloadnow: "&bDamagePenalty &7>> &eReloading configuration file"
 messreloadsucc: "&bDamagePenalty &7>> &aSuccessfully reloaded configuration file"
+
+addMultiplier_onPerDamage: 0.005
+minusMultiplier_onPerSecond: 0.001
+setMultiplier_onDeath: 1.0
+
+noGoldAppleExtraHeart: 1.246
+
+# ================= #
+# Update Config     #
+# ================= #
+config-version: "1.0.2"
+update_checker: true
+# Config version: Configuration file version
+# Do not modify, otherwise it will reset

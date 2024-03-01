@@ -1,11 +1,15 @@
-# DamagePenalty
+# Introduction
 
-Make a player suffer increasing damage.
+This is a Minecraft plugin, Make a player suffer increasing damage.
+The function is to limit the player's health recovery and defense measures when reaching a certain threshold, preventing 
+situations where unlimited health regeneration leads to a draw
+You can download the latest version [here](https://www.spigotmc.org/resources/damage-penalty.115162/)
 
 ## Functions:
 - Set Multipliers to +0.005 upon damage
 - Set Multipliers to -0.001 upon per second
 - Set Multipliers to 5% upon death
+- 
 
 ## Installation:
 - 1.Stop your server
@@ -17,3 +21,15 @@ Make a player suffer increasing damage.
 - /dpe - display help message
 - /dpe reload - reload the config
 - /dpe debug - toggle debug mode
+
+## API:
+- Support referencing local JARs to use APIs
+<pre>
+        <dependency>
+            <groupId>github.tsffish</groupId>
+            <artifactId>damagepenalty</artifactId>
+            <version>1.0.2</version>
+            <scope>system</scope>
+            <systemPath>YourPathHere/DamagePenalty-1.0.2.jar</systemPath>
+        </dependency>
+</pre>

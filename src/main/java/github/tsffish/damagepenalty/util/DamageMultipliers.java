@@ -5,6 +5,8 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
 public class DamageMultipliers {
-    public static ConcurrentMap<UUID, Double> damageMultipliers = new ConcurrentHashMap<>();
-    public static final double defaultMultipliers = 1;
+    private ConcurrentMap<UUID, Double> damageMultipliers = new ConcurrentHashMap<>();
+    public ConcurrentMap<UUID, Double> getDamageMultiplierMap() {
+        return new ConcurrentHashMap<>(damageMultipliers);
+    }
 }

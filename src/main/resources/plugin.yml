@@ -1,7 +1,7 @@
 name: DamagePenalty
-version: '${project.version}'
+version: '1.0.2'
 main: github.tsffish.damagepenalty.DamagePenalty
-api-version: '1.17'
+api-version: '1.13'
 commands:
   dpe:
     description: Hello Command
