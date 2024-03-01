@@ -2,7 +2,6 @@
 
 A Minecraft plugin,Causing players to suffer increasing damage. 
 Restrict player's health recovery and defense measures when reaching a certain threshold
-You can download the latest version [here](https://www.spigotmc.org/resources/damage-penalty.115162/)
 
 ## Functions:
 - Set Multipliers to +0.005 upon damage
@@ -10,6 +9,9 @@ You can download the latest version [here](https://www.spigotmc.org/resources/da
 - Reset Multipliers to 1.0 upon death
 - Eliminate the damage absorption effect given by the Golden Apple (when reaching a certain threshold)
 - (Most of the above functions can be customized)
+
+# Download
+You can download the latest version [here](https://www.spigotmc.org/resources/damage-penalty.115162/)
 
 ## Installation:
 - 1.Stop your server
