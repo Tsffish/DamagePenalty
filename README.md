@@ -1,6 +1,6 @@
 # Introduction
 
-This is a Minecraft plugin, Make a player suffer increasing damage.
+A Minecraft plugin, Make a player suffer increasing damage.
 The function is to limit the player's health recovery and defense measures when reaching a certain threshold, preventing 
 situations where unlimited health regeneration leads to a draw
 You can download the latest version [here](https://www.spigotmc.org/resources/damage-penalty.115162/)
@@ -9,7 +9,8 @@ You can download the latest version [here](https://www.spigotmc.org/resources/da
 - Set Multipliers to +0.005 upon damage
 - Set Multipliers to -0.001 upon per second
 - Set Multipliers to 5% upon death
-- 
+- Eliminate the damage absorption effect given by the Golden Apple (when reaching a certain threshold)
+- (Most of the above functions can be customized)
 
 ## Installation:
 - 1.Stop your server
