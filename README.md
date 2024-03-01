@@ -1,8 +1,7 @@
 # Introduction
 
-A Minecraft plugin, Make a player suffer increasing damage.
-The function is to limit the player's health recovery and defense measures when reaching a certain threshold, preventing 
-situations where unlimited health regeneration leads to a draw
+A Minecraft plugin,Causing players to suffer increasing damage. 
+Restrict player's health recovery and defense measures when reaching a certain threshold
 You can download the latest version [here](https://www.spigotmc.org/resources/damage-penalty.115162/)
 
 ## Functions:
