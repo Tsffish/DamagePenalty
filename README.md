@@ -26,7 +26,6 @@ You can download the latest version [here](https://www.spigotmc.org/resources/da
 ## API:
 - Support referencing local JARs to use APIs
 ```plaintext
-<pre>
 	<dependency>
 	<groupId>github.tsffish</groupId>
 	<artifactId>damagepenalty</artifactId>
@@ -34,5 +33,4 @@ You can download the latest version [here](https://www.spigotmc.org/resources/da
 	<scope>system</scope>
 	<systemPath>YourPathHere/DamagePenalty-1.0.2.jar</systemPath>
 	</dependency>
-</pre>
 ```
