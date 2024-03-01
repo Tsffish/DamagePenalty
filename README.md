@@ -8,7 +8,7 @@ You can download the latest version [here](https://www.spigotmc.org/resources/da
 ## Functions:
 - Set Multipliers to +0.005 upon damage
 - Set Multipliers to -0.001 upon per second
-- Set Multipliers to 5% upon death
+- Reset Multipliers to 1.0 upon death
 - Eliminate the damage absorption effect given by the Golden Apple (when reaching a certain threshold)
 - (Most of the above functions can be customized)
 
@@ -25,12 +25,14 @@ You can download the latest version [here](https://www.spigotmc.org/resources/da
 
 ## API:
 - Support referencing local JARs to use APIs
+```plaintext
 <pre>
-        <dependency>
-            <groupId>github.tsffish</groupId>
-            <artifactId>damagepenalty</artifactId>
-            <version>1.0.2</version>
-            <scope>system</scope>
-            <systemPath>YourPathHere/DamagePenalty-1.0.2.jar</systemPath>
-        </dependency>
+	<dependency>
+	<groupId>github.tsffish</groupId>
+	<artifactId>damagepenalty</artifactId>
+	<version>1.0.2</version>
+	<scope>system</scope>
+	<systemPath>YourPathHere/DamagePenalty-1.0.2.jar</systemPath>
+	</dependency>
 </pre>
+```
