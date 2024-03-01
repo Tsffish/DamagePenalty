@@ -10,7 +10,7 @@ Restrict player's health recovery and defense measures when reaching a certain t
 - Eliminate the damage absorption effect given by the Golden Apple (when reaching a certain threshold)
 - (Most of the above functions can be customized)
 
-# Download
+## Download
 You can download the latest version [here](https://www.spigotmc.org/resources/damage-penalty.115162/)
 
 ## Installation:
